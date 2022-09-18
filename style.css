@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2? family= Ubuntu:ital,wght@1,300;1,500 & display=swap");
+
+body {
+  background: linear-gradient(336.85deg, #085b5e 47%, #03a5ab 60%);
+  font-family: "Ubuntu", sans-serif;
+}
+
+.container {
+  background: #ecf4ff;
+  color: 1c1c1c;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 64px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  border-radius: 460px;
+  max-width: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.titulo h3 {
+  font-weight: normal;
+  font-size: 24px;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 16px;
+  padding: 8px 16px;
+  background: #ecf4ff;
+  border-radius: 100px;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(230.65deg, #439c9c 27.49%, #289494 83.19%);
+  color: #1b2c38;
+  margin-top: 32px;
+  padding: 32px;
+  box-shadow: 6px 6px 6px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+}
+
+.projetos-titulo {
+  list-style: none;
+  font-weight: 500;
+  font-size: 36px;
+}
+
+.projetos-item {
+  list-style-type: none;
+  font-weight: 300;
+  font-size: 24px;
+  line-weight: 60px;
+}
+
+.projetos-item a {
+  color: #1b2c38;
+  text-decoration: none;
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #375b86 27.26%, #6b87a9 96.03%);
+}
+
+.dark .container {
+  background: #333439;
+  color: #f6f6f6;
+}
+
+.dark .projetos {
+  color: #1c1c1c;
+}
+
+.dark .tema button {
+  background: #1c1c1c;
+  color: #ffffff;
+  border: 2px solid #f7f7f7;
+}
+
+ul {
+  font-size: 30px;
+  margin: 44px;
+}
+
+li a {
+  color: #1b2c38;
+  text-decoration: none;
+  margin: 44px;
+}
+
+.redes {
+  margin: 44px;
+  padding: 20px;
+  background: linear-gradient(230.65deg, #439c9c 27.49%, #289494 83.19%);
+  color: #1b2c38;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 24px;
+  box-shadow: 6px 6px 6px rgba(16, 16, 16, 0.42);
+}
+
+.redes-titulo {
+  list-style: none;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.redes-item {
+  font-weight: 300;
+  font-size: 24px;
+  list-style-type: none;
+  line-height: 35px;
+}
